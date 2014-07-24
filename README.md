@@ -6,7 +6,7 @@ PHP library used to interact with SAGE accounting software using the SDATA exten
 * Read more about SDATA here: http://sdata.sage.com/
 * SDATA v1.1 core specification: http://interop.sage.com/daisy/sdata/Introduction.html
 
-
+```
     /*
      * CONNECTION
      */
@@ -129,3 +129,4 @@ PHP library used to interact with SAGE accounting software using the SDATA exten
     } catch (Exception $e) {
         echo 'Exception: '.$e->getMessage();
     }
+```
